@@ -1,7 +1,7 @@
 import myWork from './myWork';
-export default function MyWorkView() {
+export default function CaseStudy() {
   return (
-    <div>
+    <div className="case-study">
       <h1>My Work</h1>
       {myWork.map(work => (
         <div key={work.project}>

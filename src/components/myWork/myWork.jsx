@@ -69,9 +69,15 @@ const myWork = [
   },
   {
     project: 'Portfolio',
-    purpose: [],
-    techStack: [],
-    devProcess: {},
+    purpose: [
+      "Portfolio to display some of my work. Hopefully it leaves a good impression. Otherwise, I'm happy to receive criticism",
+    ],
+    techStack: ['This app is built in React. It was created using Vite.'],
+    devProcess: {
+      process:
+        "This portfolio has undergone a few redesigns. It started as something lazy, but I've learned to put more effort into things since its creation.",
+      methods: '',
+    },
     links: { github: '', site: '' },
   },
 ];

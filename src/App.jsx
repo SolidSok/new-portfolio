@@ -1,5 +1,5 @@
 import './App.css';
-import MyWorkView from './components/myWork/myWorkView';
+import MyWorkView from './components/myWork/caseStudy';
 
 function App() {
   return (
