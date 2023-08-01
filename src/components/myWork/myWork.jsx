@@ -62,9 +62,18 @@ const myWork = [
   },
   {
     project: 'React Native Chat App',
-    purpose: [],
-    techStack: [],
-    devProcess: {},
+    purpose: [
+      'Chat app for mobile devices using React Native. The app provides users with a chat interface and options to share images and their location.',
+    ],
+    techStack: [
+      'This project was built with React Native and Expo. Chat room data was saved in Firebase.',
+    ],
+    devProcess: {
+      process:
+        'The project started as a simple introduction into React Native. It was a pretty simple project. The most time consuming thing was testing on multiple mobile devices.',
+      methods:
+        'Client was made using React Native and Expo. It is a pretty straightforward app that consists of the iniitial page and the chat room. Data is stored on Firebase. It authenticates the mobile device using it and lets you change your avatar and background theme.',
+    },
     links: { github: 'https://github.com/SolidSok/chat-app', site: null },
   },
   {
