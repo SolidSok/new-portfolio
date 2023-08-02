@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function ContactMe() {
+export default function MyWorkList() {
   return (
     <div>
-      <h1>ContactMe</h1>
+      <h1>MyWorkList</h1>
     </div>
   );
 }

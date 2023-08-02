@@ -1,4 +1,4 @@
-import myWork from './myWork';
+import myWork from './myWorkInfo';
 export default function CaseStudy() {
   return (
     <div className="case-study">

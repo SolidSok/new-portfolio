@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer-item {
+  padding: 0.3rem;
+}
+.nav-menu {
+  position: sticky;
+  top: 13px;
+  align-items: center;
+}
+.nav {
+  padding: 0.2rem;
+}
