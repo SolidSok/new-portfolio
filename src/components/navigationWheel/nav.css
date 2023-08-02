@@ -1,6 +1,7 @@
 .footer {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .footer-item {
   padding: 0.3rem;
@@ -12,4 +13,16 @@
 }
 .nav {
   padding: 0.2rem;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
+}
+.socials {
+  width: 50%;
+}
+.socials button {
+  margin: auto 0.3rem;
 }

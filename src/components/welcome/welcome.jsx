@@ -4,7 +4,7 @@ export default function Welcome() {
     <div className="content page">
       <div className="welcome-header content">
         {' '}
-        <img className="" src="https://placehold.co/200x250" />
+        <img className="" src="https://placehold.co/250x300" />
         <h1>Welcome to my Portfolio!</h1>
       </div>
 

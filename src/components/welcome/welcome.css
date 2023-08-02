@@ -1,4 +1,6 @@
 .welcome-header {
+  justify-content: space-evenly;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
