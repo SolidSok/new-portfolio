@@ -1,6 +1,11 @@
 const myWork = [
   {
     project: 'Riverbank Poker Tournament Series',
+    images: [
+      'https://placehold.co/250x300',
+      'https://placehold.co/300x250',
+      'https://placehold.co/400x320',
+    ],
     purpose: [
       'Volunteer project for a local community. Displays information for rankings and tournament dates for a summer series poker tournament.',
       'This project takes in weekly tournament data to automatically rank and displaya the accumulated results.',
@@ -22,6 +27,11 @@ const myWork = [
   },
   {
     project: 'Fire Emblem Engage Unit Builder',
+    images: [
+      'https://placehold.co/250x300',
+      'https://placehold.co/300x250',
+      'https://placehold.co/400x320',
+    ],
     purpose: [
       'Hobby project to act as a guide for the video game "Fire Emblem Engage."',
       'This project allows users to select units and see their stats and other data would look depending on what circumstances are selected.',
@@ -43,6 +53,11 @@ const myWork = [
   },
   {
     project: 'Eorzean Cuisine',
+    images: [
+      'https://placehold.co/250x300',
+      'https://placehold.co/300x250',
+      'https://placehold.co/400x320',
+    ],
     purpose: [
       'Web App to simulate a restaurant menu. Items are recipes taken from the critically acclaimed MMORPG, Final Fantasy 14.',
     ],
@@ -62,6 +77,11 @@ const myWork = [
   },
   {
     project: 'React Native Chat App',
+    images: [
+      'https://placehold.co/250x300',
+      'https://placehold.co/300x250',
+      'https://placehold.co/400x320',
+    ],
     purpose: [
       'Chat app for mobile devices using React Native. The app provides users with a chat interface and options to share images and their location.',
     ],
@@ -78,6 +98,11 @@ const myWork = [
   },
   {
     project: 'Portfolio',
+    images: [
+      'https://placehold.co/250x300',
+      'https://placehold.co/300x250',
+      'https://placehold.co/400x320',
+    ],
     purpose: [
       "Portfolio to display some of my work. Hopefully it leaves a good impression. Otherwise, I'm happy to receive criticism",
     ],
