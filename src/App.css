@@ -6,6 +6,8 @@
 
 .card {
   padding: 2em;
+  border: 1px solid white;
+  margin: 1rem;
 }
 
 .read-the-docs {
