@@ -1,39 +1,43 @@
 import myWork from './myWorkInfo';
-export default function CaseStudy() {
-  return (
-    <div className="case-study">
-      <h1>My Work</h1>
-      {myWork.map(work => (
-        <div key={work.project}>
-          <h2>{work.project}</h2>{' '}
-          <div>
-            <h3>Purpose</h3>
+import { useParams } from 'react-router';
 
-            {work.purpose.map(item => (
-              <p key={item}>{item}</p>
-            ))}
-          </div>
-          <div>
-            <h3>Tech Stack</h3>
-            <p>{work.techStack}</p>
-          </div>
-          <div>
-            <h3>Dev Process</h3>
-            <h4>Building the Site</h4>
-            <p>{work.devProcess.process}</p>
-            <h4>Methods</h4>
-            <p>{work.devProcess.methods}</p>
-          </div>
-          <div>
-            <h3>Links</h3>
-            <a href={work.links.github}>Github</a>
-            <br />
-            {work.links.site !== null ? (
-              <a href={work.links.site}>Website</a>
-            ) : null}
-          </div>
+export default function CaseStudy() {
+  const { name } = useParams();
+  const work = myWork.find(p => p.urlParams === name);
+  return (
+    <div className="case-study content page card">
+      <div>
+        <h1>{work.project}</h1>{' '}
+        <div>
+          <h2>Purpose</h2>
+
+          {work.purpose.map(item => (
+            <p key={item}>{item}</p>
+          ))}
         </div>
-      ))}
+        <div>
+          <h2>Tech Stack</h2>
+          <p>{work.techStack}</p>
+        </div>
+        <div>
+          <h2>Dev Process</h2>
+          <h3>Building the Site</h3>
+          <p>{work.devProcess.process}</p>
+          <h3>Methods</h3>
+          <p>{work.devProcess.methods}</p>
+        </div>
+        <div>
+          <h2>Links</h2>
+          <a target="_blank" rel="noreferrer" href={work.links.github}>
+            <button> Github</button>
+          </a>
+          {work.links.site !== null ? (
+            <a target="_blank" rel="noreferrer" href={work.links.site}>
+              <button>Website</button>
+            </a>
+          ) : null}
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 const myWork = [
   {
+    urlParams: 'rpts',
     project: 'Riverbank Poker Tournament Series',
     images: [
       'https://placehold.co/250x300',
@@ -26,6 +27,7 @@ const myWork = [
     },
   },
   {
+    urlParams: 'feeub',
     project: 'Fire Emblem Engage Unit Builder',
     images: [
       'https://placehold.co/250x300',
@@ -52,6 +54,7 @@ const myWork = [
     },
   },
   {
+    urlParams: 'ec',
     project: 'Eorzean Cuisine',
     images: [
       'https://placehold.co/250x300',
@@ -76,6 +79,7 @@ const myWork = [
     },
   },
   {
+    urlParams: 'rnca',
     project: 'React Native Chat App',
     images: [
       'https://placehold.co/250x300',
@@ -97,6 +101,7 @@ const myWork = [
     links: { github: 'https://github.com/SolidSok/chat-app', site: null },
   },
   {
+    urlParams: 'portfolio',
     project: 'Portfolio',
     images: [
       'https://placehold.co/250x300',

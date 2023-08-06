@@ -1,7 +1,7 @@
 import { BrowserRouter } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import NavigationMenu from './components/navigationWheel/navigationMenu';
+import NavBar from './components/navigationWheel/navbar';
 import Welcome from './components/welcome/welcome';
 import AboutMe from './components/aboutMe/aboutMe';
 import MyWorkList from './components/myWork/myWorkList';
@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<NavigationMenu />}>
+        <Route path="/" element={<NavBar />}>
           <Route index element={<Welcome />} />
           <Route path="aboutme" element={<AboutMe />} />
           <Route path="work" element={<MyWorkList />} />

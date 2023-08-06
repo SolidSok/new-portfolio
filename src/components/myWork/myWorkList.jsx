@@ -7,14 +7,14 @@ export default function MyWorkList() {
       <h1>My Work</h1>
       {myWork.map(work => {
         return (
-          <div className="card" key={work.name}>
+          <div className="card" key={work.urlParams}>
             {' '}
             <h2>{work.project}</h2>
             {work.images.map(image => (
               <img className="project-image" src={image} />
             ))}
             <p>{work.purpose}</p>
-            <Link to="/work/:project">
+            <Link to={`/work/${work.urlParams}`}>
               {' '}
               <button>Case Study</button>
             </Link>

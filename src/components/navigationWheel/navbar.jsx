@@ -1,29 +1,27 @@
 import { Outlet } from 'react-router';
 import { Link } from 'react-router-dom';
-import './nav.css';
+import './navbar.css';
 
-export default function NavigationMenu() {
+export default function NavBar() {
   return (
-    <div>
-      <div className="navbar">
-        <div>
-          <Link className="nav-item" to="/">
-            <button>Home</button>
-          </Link>
-          <Link className="nav-item" to="/aboutme">
-            <button>About Me</button>
-          </Link>
-          <Link className="nav-item" to="/work">
-            <button>My Work</button>
-          </Link>
-          <Link className="nav-item" to="/contact">
-            <button>Contact Me</button>
-          </Link>
-          <Link className="nav-item" to="/resume">
-            <button>Resume</button>
-          </Link>
-        </div>
-      </div>
+    <div className="nav-page">
+      <nav className="navbar">
+        <Link className="nav-item" to="/">
+          <button>Home</button>
+        </Link>
+        <Link className="nav-item" to="/aboutme">
+          <button>About Me</button>
+        </Link>
+        <Link className="nav-item" to="/work">
+          <button>My Work</button>
+        </Link>
+        <Link className="nav-item" to="/contact">
+          <button>Contact Me</button>
+        </Link>
+        <Link className="nav-item" to="/resume">
+          <button>Resume</button>
+        </Link>
+      </nav>
       <Outlet />
       <div className="footer">
         <div className="left-footer">
