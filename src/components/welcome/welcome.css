@@ -4,3 +4,18 @@
   flex-wrap: wrap;
   align-items: center;
 }
+
+.header-right {
+  max-width: 60%;
+}
+.badge-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.badge {
+  padding: 0.4rem;
+  margin: 0.5rem;
+  background-color: rgb(25, 94, 94);
+  border-radius: 10px;
+}

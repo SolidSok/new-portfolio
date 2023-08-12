@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  /* color: rgba(255, 255, 255, 0.87); */
   background-color: #242424;
 
   font-synthesis: none;
@@ -45,7 +45,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #383434;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -58,19 +58,13 @@ button:focus-visible {
 }
 
 .content {
-  padding: 1rem 2rem;
-  z-index: 0;
+  padding: 1rem 2.5rem;
+  background-color: #1b1616;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.content button {
+  margin: 0.5rem;
+  width: 8rem;
+}
+.content h2 {
+  margin: 1rem;
 }

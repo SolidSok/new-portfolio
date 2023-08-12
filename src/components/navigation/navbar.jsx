@@ -31,6 +31,7 @@ export default function NavBar() {
           <h2>Socials</h2>
           <button>FaceBook</button>
           <button>Github</button>
+          <button>LinkedIn</button>
         </div>
         <div className="quick-links">
           <h2>Quick Links</h2>

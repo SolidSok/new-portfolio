@@ -1,0 +1,55 @@
+.resume {
+  margin: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+}
+.resume-top {
+  display: flex;
+  justify-content: space-evenly;
+}
+.resume-top ul {
+  list-style: none;
+}
+.resume-summary {
+  display: flex;
+}
+.resume-summary-left {
+  width: 50%;
+}
+.resume-summary-right {
+  width: 50%;
+}
+.resume-middle {
+  display: flex;
+}
+.resume-education {
+  width: 50%;
+}
+.resume-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.resume-skills h2 {
+  width: 100%;
+}
+.resume-skills ul {
+  list-style: circle;
+  width: 30%;
+}
+.resume-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.work-experience {
+  width: 50%;
+}
+.certifications {
+  width: 50%;
+}
+.certifications ul {
+  height: 50%;
+  list-style: inside;
+}

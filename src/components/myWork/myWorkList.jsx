@@ -19,6 +19,11 @@ export default function MyWorkList() {
               <button>Case Study</button>
             </Link>
             <button>GItHub</button>
+            {work.links.site !== null ? (
+              <a target="_blank" rel="noreferrer" href={work.links.site}>
+                <button>Website</button>
+              </a>
+            ) : null}
           </div>
         );
       })}

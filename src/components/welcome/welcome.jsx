@@ -4,21 +4,41 @@ export default function Welcome() {
     <div className="content page">
       <div className="welcome-header content">
         {' '}
-        <img className="" src="https://placehold.co/250x300" />
-        <h1>Welcome to my Portfolio!</h1>
+        <img src="https://placehold.co/250x300" />
+        <div className="header-right">
+          <h1>Welcome to my Portfolio!</h1>
+          <div className="badge-div">
+            {' '}
+            <span className="badge">HTML</span>
+            <span className="badge">Javascript</span>
+            <span className="badge">Typescript</span>
+            <span className="badge">MongoDB</span>
+            <span className="badge">Express</span>
+            <span className="badge">React</span>
+            <span className="badge">Node.js</span>
+          </div>
+        </div>
       </div>
 
+      <h2>Who I Am</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quaerat
-        sit ipsam tenetur autem cupiditate voluptate neque, ea quisquam magni
-        quasi tempora beatae minima officiis quidem dolores accusantium debitis
-        laboriosam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Voluptatum consectetur magnam, illum sint quod maiores exercitationem
-        aliquam excepturi repudiandae cum voluptas. Voluptatem, labore corporis
-        assumenda doloremque consectetur officia molestiae ad. Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Sequi, consequuntur quas quam
-        unde, ullam neque corrupti quo, tempora atque modi voluptas qui omnis
-        saepe eum dicta non enim excepturi ab.
+        Hi, I’m Steven, a web developer with a bachelor’s degree in political
+        science and a background in customer service. I made the switch to web
+        development in an attempt to broaden my horizons and grow as a person.
+      </p>
+      <h2>My History</h2>
+      <p>
+        My work history has brought me to many places like the courts, retail
+        stores, and even the casino. Each of these experiences have developed my
+        ability to think about things from a customer’s perspective, as well as
+        remain flexible enough to work as a team or independently.
+      </p>
+      <h2>What I Want To Do</h2>
+      <p>
+        As a developer I want to provide a positive user experience by
+        developing applications that are effective and easy to understand. I
+        want to grow from each of these experiences and constantly face new
+        challenges.
       </p>
     </div>
   );
