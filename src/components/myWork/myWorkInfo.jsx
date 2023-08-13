@@ -3,9 +3,8 @@ const myWork = [
     urlParams: 'rpts',
     project: 'Riverbank Poker Tournament Series',
     images: [
-      'https://placehold.co/250x300',
-      'https://placehold.co/300x250',
-      'https://placehold.co/400x320',
+      'assets/riverbank/RBTourn1.jpg',
+      'assets/riverbank/riverbank2.jpg',
     ],
     purpose: [
       'Volunteer project for a local community. Displays information for rankings and tournament dates for a summer series poker tournament.',
@@ -29,11 +28,7 @@ const myWork = [
   {
     urlParams: 'feeub',
     project: 'Fire Emblem Engage Unit Builder',
-    images: [
-      'https://placehold.co/250x300',
-      'https://placehold.co/300x250',
-      'https://placehold.co/400x320',
-    ],
+    images: ['assets/engage-builder/1.png', 'assets/engage-builder/2.png'],
     purpose: [
       'Hobby project to act as a guide for the video game "Fire Emblem Engage."',
       'This project allows users to select units and see their stats and other data would look depending on what circumstances are selected.',
@@ -56,11 +51,7 @@ const myWork = [
   {
     urlParams: 'ec',
     project: 'Eorzean Cuisine',
-    images: [
-      'https://placehold.co/250x300',
-      'https://placehold.co/300x250',
-      'https://placehold.co/400x320',
-    ],
+    images: ['assets/eorzean-cuisine/eorzeanCuisine.png'],
     purpose: [
       'Web App to simulate a restaurant menu. Items are recipes taken from the critically acclaimed MMORPG, Final Fantasy 14.',
     ],
@@ -82,9 +73,9 @@ const myWork = [
     urlParams: 'rnca',
     project: 'React Native Chat App',
     images: [
-      'https://placehold.co/250x300',
-      'https://placehold.co/300x250',
-      'https://placehold.co/400x320',
+      'assets/chat-app/main.png',
+      'assets/chat-app/2.png',
+      'assets/chat-app/3.png',
     ],
     purpose: [
       'Chat app for mobile devices using React Native. The app provides users with a chat interface and options to share images and their location.',
@@ -103,13 +94,9 @@ const myWork = [
   {
     urlParams: 'portfolio',
     project: 'Portfolio',
-    images: [
-      'https://placehold.co/250x300',
-      'https://placehold.co/300x250',
-      'https://placehold.co/400x320',
-    ],
+    images: ['assets/portfolio.png'],
     purpose: [
-      "Portfolio to display some of my work. Hopefully it leaves a good impression. Otherwise, I'm happy to receive criticism",
+      "Portfolio to display some of my work. Hopefully it leaves a good impression. Otherwise, I'm happy to receive criticism!",
     ],
     techStack: ['This app is built in React. It was created using Vite.'],
     devProcess: {

@@ -10,9 +10,12 @@ export default function MyWorkList() {
           <div className="card" key={work.urlParams}>
             {' '}
             <h2>{work.project}</h2>
-            {work.images.map(image => (
-              <img className="project-image" src={image} />
-            ))}
+            <div className="project-image-div">
+              {' '}
+              {work.images.map(image => (
+                <img key={image} className="project-image" src={image} />
+              ))}
+            </div>
             <p>{work.purpose}</p>
             <Link to={`/work/${work.urlParams}`}>
               {' '}
