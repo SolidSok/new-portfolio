@@ -1,0 +1,10 @@
+.about-me-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.video-game-image {
+  width: 20rem;
+  object-fit: contain;
+  margin: 1rem;
+}

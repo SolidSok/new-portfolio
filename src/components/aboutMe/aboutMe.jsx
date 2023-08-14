@@ -1,3 +1,4 @@
+import './aboutMe.css';
 export default function AboutMe() {
   return (
     <div className="content page about-me">
@@ -39,14 +40,28 @@ export default function AboutMe() {
           computers, and like to spend free time looking at potential part
           upgrades.
         </p>
-        <h3>Video Games</h3>
-        <p>
-          Growing up in a military household meant I didn't have many
-          opportunities to make friends or even spend time with my parents.
-          Video Games filled the void, taking me on many wondeful adventures.
-          The increasing accessiblity of the internet also gave me an avenue to
-          spend time with friends even if they were thousands of miles away.
-        </p>
+        <div className="about-me-div">
+          {' '}
+          <h3>Video Games</h3>
+          <p>
+            Growing up in a military household meant I didn't have many
+            opportunities to make friends or even spend time with my parents.
+            Video Games filled the void, taking me on many wondeful adventures.
+            The increasing accessiblity of the internet also gave me an avenue
+            to spend time with friends even if they were thousands of miles
+            away.
+          </p>
+          <div className="about-me-images">
+            <img
+              className="video-game-image"
+              src="assets/video-games/hsr.png"
+            />
+            <img
+              className="video-game-image"
+              src="assets/video-games/bg3.jpg"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
