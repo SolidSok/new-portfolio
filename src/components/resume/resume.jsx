@@ -118,7 +118,7 @@ export default function Resume() {
           </ul>
         </div>
       </div>
-      <a href="./resume.pdf" download>
+      <a href="assets/resume.pdf" download>
         <button>Download PDF</button>
       </a>
     </div>
