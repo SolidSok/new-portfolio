@@ -48,27 +48,27 @@ const myWork = [
       site: 'https://engagebuilder.netlify.app/',
     },
   },
-  {
-    urlParams: 'ec',
-    project: 'Eorzean Cuisine',
-    images: ['assets/eorzean-cuisine/eorzeanCuisine.png'],
-    purpose: [
-      'Web App to simulate a restaurant menu. Items are recipes taken from the critically acclaimed MMORPG, Final Fantasy 14.',
-    ],
-    techStack: [
-      'Data is pulled from a database I made on MongoDB. The client was made in React, and uses a custom REST API that I made with Node and Express.',
-    ],
-    devProcess: {
-      process:
-        'I made this project shortly after finishing my Web Development course at CareerFoundry. I am a long time fan of the Final Fantasy Series, and have countless hours sunk into FF14. I wanted to create something fun that was related to it. So I went to work on creating a selection of items in MongoDB that would display a variety of cultures in the game.',
-      methods:
-        'Collections were made in Mongo and uploaded to MongoDB. I then made the API using Node and Express to use custom endpoints for different items. The Frontend Client is made in React and uses Axios to fetch the required data. The API was hosted on Heroku. Unfortunately, sometime after hosting it Heroku changed their free policy, and the API is no longer up and running.',
-    },
-    links: {
-      github: 'https://github.com/SolidSok/eorzean-cuisine',
-      site: 'https://eorzean-cuisine.vercel.app/locations',
-    },
-  },
+  // {
+  //   urlParams: 'ec',
+  //   project: 'Eorzean Cuisine',
+  //   images: ['assets/eorzean-cuisine/eorzeanCuisine.png'],
+  //   purpose: [
+  //     'Web App to simulate a restaurant menu. Items are recipes taken from the critically acclaimed MMORPG, Final Fantasy 14.',
+  //   ],
+  //   techStack: [
+  //     'Data is pulled from a database I made on MongoDB. The client was made in React, and uses a custom REST API that I made with Node and Express.',
+  //   ],
+  //   devProcess: {
+  //     process:
+  //       'I made this project shortly after finishing my Web Development course at CareerFoundry. I am a long time fan of the Final Fantasy Series, and have countless hours sunk into FF14. I wanted to create something fun that was related to it. So I went to work on creating a selection of items in MongoDB that would display a variety of cultures in the game.',
+  //     methods:
+  //       'Collections were made in Mongo and uploaded to MongoDB. I then made the API using Node and Express to use custom endpoints for different items. The Frontend Client is made in React and uses Axios to fetch the required data. The API was hosted on Heroku. Unfortunately, sometime after hosting it Heroku changed their free policy, and the API is no longer up and running.',
+  //   },
+  //   links: {
+  //     github: 'https://github.com/SolidSok/eorzean-cuisine',
+  //     site: 'https://eorzean-cuisine.vercel.app/locations',
+  //   },
+  // },
   {
     urlParams: 'rnca',
     project: 'React Native Chat App',
