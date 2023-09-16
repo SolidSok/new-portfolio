@@ -66,6 +66,7 @@ const myWork = [
     },
     links: {
       github: 'https://github.com/SolidSok/eorzean-cuisine',
+      github2: 'https://github.com/SolidSok/eorzean-cuisine-api',
       site: null,
     },
   },

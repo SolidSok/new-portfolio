@@ -21,12 +21,19 @@ export default function MyWorkList() {
               {' '}
               <button>Case Study</button>
             </Link>
-            <button>GItHub</button>
+            <a target="_blank" rel="noreferrer" href={work.links.github}>
+              <button> Github</button>
+            </a>
             {work.links.site !== null ? (
               <a target="_blank" rel="noreferrer" href={work.links.site}>
                 <button>Website</button>
               </a>
             ) : null}
+            {work.links.github2 !== undefined && (
+              <a target="_blank" rel="noreferrer" href={work.links.github2}>
+                <button>API Github</button>
+              </a>
+            )}
           </div>
         );
       })}
