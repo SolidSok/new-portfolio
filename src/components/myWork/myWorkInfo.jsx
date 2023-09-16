@@ -105,7 +105,10 @@ const myWork = [
         "This portfolio has undergone a few redesigns. It started as something lazy, but I've learned to put more effort into things since its creation.",
       methods: '',
     },
-    links: { github: '', site: '' },
+    links: {
+      github: 'https://github.com/SolidSok/new-portfolio',
+      site: 'https://portfolio-steven-sok.vercel.app/',
+    },
   },
 ];
 
